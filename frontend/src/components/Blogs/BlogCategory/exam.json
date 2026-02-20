@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "title": "This is only test",
+      "category_id": "1",
+      "course_id": "1",
+      "marksPerQuestion": "Test",
+      "time": "00:11",
+      "physics_question": [
+        {
+          "q": "1. Which of the following is a primary memory?",
+          "ans1": "Hard Disk",
+          "ans2": "RAM",
+          "ans3": "USB Drive",
+          "ans4": "CD-ROM",
+          "currect": "CD-ROM",
+          "checked": false
+        }
+      ],
+      "math_question": [
+        {
+          "q": "What does CPU stand for?",
+          "ans1": "Central Processing Unit",
+          "ans2": "Central Process Unit",
+          "ans3": "Computer Personal Unit",
+          "ans4": "Centralized Processing Unit",
+          "currect": "Central Processing Unit",
+          "checked": false
+        }
+      ],
+      "chemistry_question": [
+        {
+          "q": "Which device is used for input in a computer?",
+          "ans1": "Monitor",
+          "ans2": "Printer",
+          "ans3": "Keyboard",
+          "ans4": "Speaker",
+          "currect": "Keyboard",
+          "checked": false
+        }
+      ],
+      "english_question": [
+        {
+          "q": "What is the function of the ALU?",
+          "ans1": "Store data",
+          "ans2": "Transistors",
+          "ans3": "Vacuum tubes",
+          "ans4": "Integrated circuits",
+          "currect": "Store data",
+          "checked": false
+        }
+      ],
+      "computer_question": [
+        {
+          "q": "Which of the following is a type of malware?",
+          "ans1": "Antivirus",
+          "ans2": "Language",
+          "ans3": "Trojan Horse",
+          "ans4": "Operating System",
+          "currect": "Trojan Horse",
+          "checked": false
+        }
+      ],
+      "createdAt": "2025-04-02T21:07:29.000Z",
+      "updatedAt": "2025-04-02T21:07:29.000Z",
+      "firstLevel": "Rajan",
+      "secondLevel": "Santosh",
+      "thirdLevel": "Manisha",
+      "category_name": "Test",
+      "course_name": "BCA"
+    }
+  ]
+  

@@ -7,13 +7,13 @@ config();
 
 const AdminData = [
   {
-    name: "Anil",
-    email: "studyitnepal@gmail.com",
-    password: "pMpk11@1337",
+    name: "Demo",
+    email: "demo@gmail.com",
+    password: "123456",
   },
   {
     name: "User",
-    email: "anilb9850@gmail.com",
+    email: "anilb@gmail.com",
     password: "123456",
   },
 ];

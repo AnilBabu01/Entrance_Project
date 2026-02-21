@@ -1,0 +1,36 @@
+name: Deploy Frontend & Admin
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-frontend:
+    runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message, 'user') || true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Deploy yser to Vercel
+        run: |
+          npx vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+          npx vercel build user --prod --token=${{ secrets.VERCEL_TOKEN }}
+          npx vercel deploy user --prod --token=${{ secrets.VERCEL_TOKEN }}
+
+  deploy-admin:
+  deploy-admin:
+    runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message, 'admin') || true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Deploy Admin to Vercel
+        run: |
+          npx vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+          npx vercel build admin --prod --token=${{ secrets.VERCEL_TOKEN }}
+          npx vercel deploy admin --prod --token=${{ secrets.VERCEL_TOKEN }}

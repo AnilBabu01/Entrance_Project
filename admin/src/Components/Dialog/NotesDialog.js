@@ -19,6 +19,7 @@ import "../../dist/js/sidebarmenu";
 import "../../dist/js/feather.min.js";
 import "../../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js";
 
+
 //icon
 import Cancel from "@material-ui/icons/Cancel";
 import {

@@ -2,10 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["localhost", "https://devapi.studyitnepal.com"],
+    domains: ["localhost", "https://entrance.kkffgold.co.in"],
     unoptimized: true,
   },
-  output: "export",
+  // output: "export",
   async rewrites() {
     return [
       {
